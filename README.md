@@ -1,4 +1,4 @@
-# Flashpoint-The-Raid
+# Flashpoint: "The Raid"
 
 This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It requires the ModTek and Flashpoint Stock Photos mods.
 
