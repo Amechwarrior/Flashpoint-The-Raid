@@ -1,6 +1,6 @@
 # Flashpoint-The-Raid
 
-This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It uses ModTek and Flashpoint Stock Photos.
+This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It requires the ModTek and Flashpoint Stock Photos mods.
 
 ### Description:
     "Tiverton wants to eradicate the Black Market cabal in their system and direct assaults have failed. 
@@ -12,9 +12,9 @@ This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It uses M
 ### Notes: 
 This Flashpoint requires your company to have "Black Market Access" to populate.
 
-"The Raid" is set with a spawn weight of 10, the same as the other non-alliance/tutorial Flashpoints. This means it has the same odds of populating as any other Flashpoint.
+"The Raid" is set with a spawn weight of 10, the same weight as the other non-alliance/tutorial Flashpoints.
 
-Once this Flashpoint is associated with a save file, it must be present to load that save. This is like adding new modded 'Mech or equipment in that it becomes required to load going forward.
+Once this Flashpoint is associated with a save file, it must be present to load that save. This is like adding new modded 'Mechs or equipment in that it becomes required to load going forward.
 
 ### Instructions:
     Copy "Flashpoint-The-Raid" folder in to Mods folder created for ModTek.
@@ -40,4 +40,4 @@ Better AI - https://github.com/BattletechModders/BetterAI/releases
 
 My AI improvement mod, Better AI allows the OPFOR to reserve, protect their weak sides and use Lance roles to greater effect. This Flashpoint can be completed with or without Better AI.
 
-#####  NOTE - "The Raid" and "Better AI" has cFixes set as an Optional Dependency.  They will automatically load after cFixes changes.  Neither requires cFixes to work.
+#####  NOTE - "The Raid" and "Better AI" has cFixes set as an Optional Dependency.  They will automatically load after cFixes.  Neither requires cFixes to work.
