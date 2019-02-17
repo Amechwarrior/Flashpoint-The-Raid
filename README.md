@@ -7,7 +7,7 @@ This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It requir
     They want to use your companies Black Market access as a trojan horse. 
     Expect extreme opposition and back-to-back engagements, be prepared for anything."
     
-"The Raid" has been designed to challenge endgame level companies. It's built against a nearly complete Argo, multiple Lances of custom 'Mechs and elite pilots able to run multiple engangements without repair. It can be compelted with less, but should probide greater challenge than the Alliance Flashpoints or 5 Skull contracts.
+"The Raid" has been designed to challenge endgame level companies. It's built against a nearly complete Argo, multiple Lances of custom 'Mechs and elite pilots able to run multiple engangements without repair. It can be compelted with less, but should provide  greater challenge than the Alliance Flashpoints or 5 Skull contracts.
     
 ### Notes: 
 This Flashpoint requires your company to have "Black Market Access" to populate.
