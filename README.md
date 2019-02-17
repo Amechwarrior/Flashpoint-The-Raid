@@ -10,3 +10,5 @@ Flashpoint Stock Photos -
 https://github.com/BattletechModders/Flashpoint-Stock-Photos/releases
 
 Your company needs to have active Black Market access for this Flashpoint to populate. It has the default weight of 10, and will populate randomly like others, if you meet the criteria for Black Market access.
+
+This Flashpoint was designed for endgame or 5 Skull (10 Difficulty) challanges and is best completed with a fully equipped Argo and at least two elite Lances.
