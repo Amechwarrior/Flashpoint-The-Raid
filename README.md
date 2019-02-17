@@ -17,6 +17,7 @@ This Flashpoint requires your company to have "Black Market Access" to populate.
 Once this Flashpoint is associated with a save file, it must be present to load that save. This is like adding new modded 'Mechs or equipment in that it becomes required to load going forward.
 
 ### Instructions:
+    Install Flashpoint Stock Photos,
     Copy "Flashpoint-The-Raid" folder in to Mods folder created for ModTek.
     
 ### Required Mods:
