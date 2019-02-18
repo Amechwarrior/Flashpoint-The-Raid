@@ -9,6 +9,15 @@ This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It requir
     
 "The Raid" has been designed to challenge endgame level companies. It's built against a nearly complete Argo, multiple Lances of custom 'Mechs and elite pilots able to run multiple engagements without repair. It can be completed with less, but should provide  greater challenge than the Alliance Flashpoints or 5 Skull contracts.
     
+### Features:
+    A fully featured Flashpoint with up to five, 5-skull+ missions.
+    Custom edited missions with a mix of bespoke and procedural Lances.
+    Optional objectives and failure branches, partial rewards if you can't make it to the end.
+    Custom OPFOR 'Mechs using unique skins.
+    Four simgame conversations featuring special dialogue for the right commander traits.
+    Custom Holoscreen imagery and cast.
+    Two events dealing with the impact of the raid on the Argo and it's crew.
+
 ### Notes: 
 This Flashpoint requires your company to have "Black Market Access" to populate.
 
