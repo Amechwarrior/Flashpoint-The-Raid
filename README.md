@@ -42,3 +42,19 @@ Better AI - https://github.com/BattletechModders/BetterAI/releases
 My AI improvement mod, Better AI allows the OPFOR to reserve, protect their weak sides and use Lance roles to greater effect. This Flashpoint can be completed with or without Better AI.
 
 #####  NOTE - "The Raid" and "Better AI" has cFixes set as an Optional Dependency.  They will automatically load after cFixes.  Neither requires cFixes to work.
+
+### Credits: 
+
+Mpstark and the entire ModTek team for ModTek. This wouldn't be possible without it.
+
+cWolf for ConverseTek. Writing the conversations wouldn't be possible without ConverseTek.
+
+Team Banzai (Dr. Banzai, scJazz, Justin Kase, Sheepy) for all the help and feedback across the entire process, special thanks to Justin Kase for art assets and assistance.
+
+akodoreign for coming along with me to blaze the trail.
+
+SA BT Goons for sparking the original idea in the first place. See you on the field!
+
+All the BATTLETECH Modders on discord. I'd be lost without all of your help.
+
+HBS for making the game and specially HBS_Eck for all the FP guidance and helping me figure out how to do this.
