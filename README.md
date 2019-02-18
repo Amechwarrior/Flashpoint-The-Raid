@@ -16,7 +16,7 @@ This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It requir
     Custom OPFOR 'Mechs using unique skins.
     Four simgame conversations featuring special dialogue for the right commander traits.
     Custom Holoscreen imagery and cast.
-    Two events dealing with the impact of the raid on the Argo and it's crew.
+    Two events dealing with the impact of the raid on the Argo and the crew.
 
 ### Notes: 
 This Flashpoint requires your company to have "Black Market Access" to populate.
