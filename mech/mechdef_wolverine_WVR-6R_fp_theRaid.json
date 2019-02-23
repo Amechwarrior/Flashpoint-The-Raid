@@ -17,7 +17,7 @@
     "Description": {
         "Cost": 5970000,
         "Rarity": 1,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Wolverine WVR-6R",
