@@ -196,7 +196,9 @@
     ],
     "VariantName": "GRF-1N+",
     "ChassisTags": {
-        "items": [],
+        "items": [
+        "BLACKLISTED"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Fire Support",
