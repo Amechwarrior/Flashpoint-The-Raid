@@ -16,7 +16,7 @@
     "Description": {
         "Cost": 9720000,
         "Rarity": 4,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": null,
         "Model": null,
         "UIName": "Awesome AWS-8T",
