@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/Flashpoint-The-Raid-1.0.0/castSprites/guiTxrPort_Muscle_default_utr.png"
+        "portraitAssetPath" : "../../Mods/Flashpoint-The-Raid-1.0.1/castSprites/guiTxrPort_Muscle_default_utr.png"
     },
     "emotePotraitList" : [
         
