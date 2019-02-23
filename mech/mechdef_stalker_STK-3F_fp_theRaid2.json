@@ -7,7 +7,7 @@
             "unit_lance_assassin",
             "unit_role_brawler",
             "unit_release",
-			"BLACKLISTED"
+	    "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -22,7 +22,7 @@
         "UIName": "Stalker STK-3F",
         "Id": "mechdef_stalker_STK-3F_fp_theRaid2",
         "Name": "Stalker",
-        "Details": "The Stalker 3F mounts a ridiculous amount of weaponry\u2014even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.",
+        "Details": "This wasn't supposed to happen, scrap this. The Stalker 3F mounts a ridiculous amount of weaponry\u2014even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.",
         "Icon": "uixTxrIcon_stalker"
     },
     "simGameMechPartCost": 1040000,
@@ -103,17 +103,17 @@
     ],
     "inventory": [
         {
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},            
-		{
+	    "MountedLocation": "Head",
+	    "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+	    "SimGameUID": null,
+	    "ComponentDefType": "Upgrade",
+	    "HardpointSlot": -1,
+	    "GUID": null,
+	    "DamageLevel": "Functional",
+	    "prefabName": null,
+	    "hasPrefabName": false
+	},            
+	{
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
             "SimGameUID": null,
