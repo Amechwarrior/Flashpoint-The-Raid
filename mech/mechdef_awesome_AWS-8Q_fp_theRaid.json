@@ -6,7 +6,7 @@
             "unit_release",
             "unit_lance_support",
             "unit_role_brawler",
-			"BLACKLISTED"
+	    "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -21,7 +21,7 @@
         "UIName": "Awesome AWS-8Q",
         "Id": "mechdef_awesome_AWS-8Q_fp_theRaid",
         "Name": "Awesome",
-        "Details": "A 'Mech that truly lives up to its name! The Awesome 8Q mounts a frightening trio of PPCs that can destroy, knock down, or debilitate any target in no time. It's ungainly, but it can shrug off huge amounts of incoming fire.",
+        "Details": "This wasn't supposed to happen, scrap this. A 'Mech that truly lives up to its name! The Awesome 8Q mounts a frightening trio of PPCs that can destroy, knock down, or debilitate any target in no time. It's ungainly, but it can shrug off huge amounts of incoming fire.",
         "Icon": "uixTxrIcon_awesome"
     },
     "simGameMechPartCost": 970000,
@@ -189,17 +189,17 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
+	{
+	    "MountedLocation": "CenterTorso",
+	    "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+	    "SimGameUID": null,
+	    "ComponentDefType": "Upgrade",
+	    "HardpointSlot": -1,
+	    "GUID": null,
+	    "DamageLevel": "Functional",
+	    "prefabName": null,
+	    "hasPrefabName": false
+	},
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_PPC_PPC_2-Ceres_Arms",
