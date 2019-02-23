@@ -4,9 +4,9 @@
             "unit_mech",
             "unit_assault",
             "unit_role_sniper",
-			"unit_release",
-			"unit_dlc",
-			"BLACKLISTED"
+	    "unit_release",
+	    "unit_dlc",
+	    "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -21,7 +21,7 @@
         "UIName": "",
         "Id": "mechdef_cyclops_CP-10-Z_fp_theRaid",
         "Name": "Jupiter",
-        "Details": "Cyclops 10-Zs use their imposing presence and unique communications equipment to control the battlefield. While the 10-Z carries a lethal array of close range weaponry, its primary role is command and control, bolstering friendly units with its specialized battle computer.",
+        "Details": "This wasn't supposed to happen, scrap this. Cyclops 10-Zs use their imposing presence and unique communications equipment to control the battlefield. While the 10-Z carries a lethal array of close range weaponry, its primary role is command and control, bolstering friendly units with its specialized battle computer.",
         "Icon": "uixTxrIcon_cyclops"
     },
     "simGameMechPartCost": 1080000,
