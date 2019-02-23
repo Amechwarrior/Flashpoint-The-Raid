@@ -7,7 +7,7 @@
             "unit_release",
             "unit_lance_support",
             "unit_role_sniper",
-			"BLACKLISTED"
+	    "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -22,7 +22,7 @@
         "UIName": "Awesome AWS-8T",
         "Id": "mechdef_awesome_AWS-8T_fp_theRaid",
         "Name": "Awesome",
-        "Details": "The Awesome 8T is a superb fire support 'Mech, though its heavy armor is a bit wasted in that role. It can still put up a good fight at medium ranges, and it can crush smaller units outright with Melee attacks.",
+        "Details": "This wasn't supposed to happen, scrap this. The Awesome 8T is a superb fire support 'Mech, though its heavy armor is a bit wasted in that role. It can still put up a good fight at medium ranges, and it can crush smaller units outright with Melee attacks.",
         "Icon": "uixTxrIcon_awesome"
     },
     "simGameMechPartCost": 970000,
@@ -190,17 +190,17 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
+	{
+	    "MountedLocation": "CenterTorso",
+	    "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+	    "SimGameUID": null,
+	    "ComponentDefType": "Upgrade",
+	    "HardpointSlot": -1,
+	    "GUID": null,
+	    "DamageLevel": "Functional",
+	    "prefabName": null,
+	    "hasPrefabName": false
+	},
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_LRM_LRM15_3-Zeus",
