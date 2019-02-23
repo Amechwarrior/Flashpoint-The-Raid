@@ -1480,10 +1480,10 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-						"lance_type_battle",
-						"lance_type_mixed",
-						"lance_type_notallvehicles"
-					],
+			"lance_type_battle",
+			"lance_type_mixed",
+			"lance_type_notallvehicles"
+		    ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
@@ -1974,7 +1974,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_battle",
-						"lance_type_notallvehicles"
+			"lance_type_notallvehicles"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
