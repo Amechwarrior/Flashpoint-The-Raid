@@ -7,7 +7,7 @@
       "unit_lance_tank",
       "unit_role_brawler",
       "unit_release",
-	  "BLACKLISTED"
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   },
@@ -22,7 +22,7 @@
     "UIName": "Black Knight BL-7-KNT",
     "Id": "mechdef_blackknight_BL-6-KNT_fp_theRaid",
     "Name": "Light Show",
-    "Details": "The Black Knight 7-KNT is a dedicated Energy weapon platform. It can shell out hellish damage with its beams and shrug off a lot of damage… just gotta make sure to keep its heat in check.",
+    "Details": "This wasn't supposed to happen, scrap this. The Black Knight 7-KNT is a dedicated Energy weapon platform. It can shell out hellish damage with its beams and shrug off a lot of damage… just gotta make sure to keep its heat in check.",
     "Icon": "uixTxrIcon_blackknight"
   },
   "simGameMechPartCost": 1032000,
