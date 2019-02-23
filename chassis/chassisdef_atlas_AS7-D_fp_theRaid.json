@@ -211,7 +211,9 @@
   ],
   "VariantName": "AS7-D+",
   "ChassisTags": {
-    "items": [],
+    "items": [
+    "BLACKLISTED"
+    ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Close Assault",
