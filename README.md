@@ -4,7 +4,7 @@ This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.4.0. It requir
 
 ### Description:
     "Tiverton wants to eradicate the Black Market cabal in their system and direct assaults have failed. 
-    They want to use your companies Black Market access as a trojan horse. 
+    They want to use your company's Black Market access as a Trojan horse. 
     Expect extreme opposition and back-to-back engagements, be prepared for anything."
     
 "The Raid" has been designed to challenge endgame level companies. It's built against a nearly complete Argo, multiple Lances of custom 'Mechs and elite pilots able to run multiple engagements without repair. It can be completed with less, but should provide  greater challenge than the Alliance Flashpoints or 5 Skull contracts.
