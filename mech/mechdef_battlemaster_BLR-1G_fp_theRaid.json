@@ -15,7 +15,7 @@
     "Description": {
         "Cost": 11250000,
         "Rarity": 5,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": null,
         "Model": null,
         "UIName": "BattleMaster BLR-1G",
