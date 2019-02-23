@@ -7,7 +7,7 @@
       "unit_lance_assassin",
       "unit_role_sniper",
       "unit_release",
-	  "BLACKLISTED"
+      "BLACKLISTED"
     ],
     "tagSetSourceFile": ""
   },
@@ -22,7 +22,7 @@
     "UIName": "",
     "Id": "mechdef_stalker_STK-3F_fp_theRaid",
     "Name": "ThunderBird",
-    "Details": "The Stalker 3F mounts a ridiculous amount of weaponry—even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.",
+    "Details": "This wasn't supposed to happen, scrap this. The Stalker 3F mounts a ridiculous amount of weaponry—even for an assault 'Mech. It is also notable for its incredibly poor heat management, which is the cost it pays for such amazing damage output. Powerful, but to be used wisely.",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 1220000,
@@ -113,7 +113,7 @@
       "prefabName": null,
       "hasPrefabName": false
     },
-	{
+    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
       "SimGameUID": null,
@@ -157,7 +157,7 @@
       "prefabName": null,
       "hasPrefabName": false
     },
-	{
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "SimGameUID": null,
