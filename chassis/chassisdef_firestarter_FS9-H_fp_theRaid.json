@@ -227,7 +227,9 @@
     ],
     "VariantName": "FS9-H+",
     "ChassisTags": {
-        "items": [],
+        "items": [
+        "BLACKLISTED"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",
