@@ -218,7 +218,9 @@
     ],
     "VariantName": "BLR-1G+",
     "ChassisTags": {
-        "items": [],
+        "items": [
+        "BLACKLISTED"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Brawler & Close Assault",
