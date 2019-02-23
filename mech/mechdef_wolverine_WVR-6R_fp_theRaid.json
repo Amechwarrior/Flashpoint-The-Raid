@@ -8,7 +8,7 @@
             "unit_lance_vanguard",
             "unit_role_brawler",
             "unit_release",
-			"BLACKLISTED"
+	    "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
@@ -23,7 +23,7 @@
         "UIName": "Wolverine WVR-6R",
         "Id": "mechdef_wolverine_WVR-6R_fp_theRaid",
         "Name": "Wolverine",
-        "Details": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
+        "Details": "This wasn't supposed to happen, scrap this. Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
         "Icon": "uixTxrIcon_wolverine"
     },
     "simGameMechPartCost": 600000,
