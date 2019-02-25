@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_theRaid_1_destroyBase",
-    "contractName" : "The Raid I",
+    "contractName" : "The Raid",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
