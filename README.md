@@ -29,6 +29,11 @@ Once this Flashpoint is associated with a save file, it must be present to load 
     Install Flashpoint Stock Photos,
     Copy "Flashpoint-The-Raid" folder in to Mods folder created for ModTek.
     
+#### Optional Instructions:
+Users with the Vehicle Improvement Project must install "Flashpoint-The-Raid-VIP-Override" to modify the Flashpoint's custom vehciles to work with VIP.
+
+Flashpoint: The Raid - VIP Override https://github.com/Amechwarrior/Flashpoint-The-Raid-VIP-Override/releases
+    
 ### Required Mods:
 This mod needs ModTek and Flashpoint Stock Photos to work:
 
