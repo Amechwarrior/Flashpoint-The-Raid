@@ -7,13 +7,16 @@
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
     "finalDifficulty" : 0,
+    "representativeCastDefIDOverride" : null,
+    "missionSuccessStatementOverride" : null,
+    "badFaithStatementOverride" : null,
+    "goodFaithStatementOverride" : null,
     "shortDescription" : "We have to defend this warehouse, our real payment is inside. The rookie pirates left behind are coming for us, but they'll still be riding in high end gear. We're making a big spectacle for the Planetary Government's forces, so take it seriously.",
     "longDescription" : "We're putting on a show and getting something special in return, so we'll be expected to take the brunt of the attack until reinforcements arrive on site.",
     "salvagePotential" : 20,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
-    "contractType" : "DefendBase",
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
@@ -60,7 +63,9 @@
             "description" : "Defend Base from Attackers",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -96,7 +101,9 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -132,7 +139,9 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -142,7 +151,9 @@
             "description" : "Hold Out for Reinforcements",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -178,7 +189,9 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -188,7 +201,9 @@
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -198,7 +213,9 @@
             "description" : "Hidden Objective: Destroy the Third Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         },
         {
             "objective" : {
@@ -208,7 +225,9 @@
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [],
-            "OnFailureResults" : []
+            "OnFailureResults" : [],
+            "OnSuccessDialogueGUID" : "",
+            "OnFailureDialogueGUID" : ""
         }
     ],
     "artilleryObjectiveList" : [],
@@ -220,6 +239,7 @@
                 "EncounterObjectGuid" : "2340cc58-51b0-4db7-a9ff-f5ff08d86d01"
             },
             "enableChunkFromContract" : true,
+            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
         {
@@ -228,6 +248,7 @@
                 "EncounterObjectGuid" : "5dca4e7f-ea4c-4582-8a4c-bb531e2c0754"
             },
             "enableChunkFromContract" : true,
+            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }
     ],
@@ -651,6 +672,8 @@
             ]
         }
     ],
+    "extractionOverrideList" : [],
+    "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : "DialogBucketDef_c_fp_theRaid_b2_defendBase",
     "disableNegotations" : true,
     "disableLanceConfiguration" : false,
@@ -666,7 +689,7 @@
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "bf40fd39-ccf9-47c4-94a6-061809681140",
         "teamName" : "Player 1",
@@ -699,8 +722,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "1668c1ba-b9c6-4ef3-83df-19bfec270da1"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_None",
                         "unitTagSet" : {
@@ -732,8 +755,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "6b4979b9-b730-460b-8f18-c9b19efbb91c"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_None",
                         "unitTagSet" : {
@@ -765,8 +788,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "0a320081-2d60-450e-8e00-092c838496b4"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_None",
                         "unitTagSet" : {
@@ -798,8 +821,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "34a720da-9acc-4c57-bb4a-2cbe22da78a8"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_None",
                         "unitTagSet" : {
@@ -833,7 +856,7 @@
     },
     "player2Team" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "757173dd-b4e1-4bb5-9bee-d78e623cc867",
         "teamName" : "Player 2",
@@ -843,10 +866,10 @@
     },
     "employerTeam" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
-        "teamName" : "Employer",
+        "teamName" : "EmployerTeam",
         "faction" : "INVALID_UNSET",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
@@ -901,8 +924,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
                         "unitDefId" : "UseLance",
                         "unitTagSet" : {
@@ -934,8 +957,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
                         "unitDefId" : "UseLance",
                         "unitTagSet" : {
@@ -969,10 +992,10 @@
     },
     "targetTeam" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
-        "teamName" : "Target",
+        "teamName" : "TargetTeam",
         "faction" : "INVALID_UNSET",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
@@ -1004,7 +1027,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "52137684-666c-43d1-9528-99dc96471645"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_CARRIER_LRM_fp_theRaid",
@@ -1037,7 +1060,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "1d32f819-a4d2-4df1-a66b-c641855e3b3b"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_atlas_AS7-D_fp_theRaid",
@@ -1070,7 +1093,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "0b168027-919d-4d87-ae88-853711e26b67"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_stalker_STK-3F_fp_theRaid2",
@@ -1103,7 +1126,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "1843b49d-e943-46fc-88aa-954eb78be8d3"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_grasshopper_GHR-5H_fp_theRaid",
@@ -1162,7 +1185,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "7c30108d-c203-4240-a74f-76cc057ccae0"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_DEMOLISHER_fp_theRaid",
@@ -1195,7 +1218,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "8021f2fc-1990-4f9c-9362-adc183d5fba9"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Vehicle",
                         "unitDefId" : "vehicledef_SCHREK_fp_theRaid",
@@ -1228,7 +1251,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "9bdc93cb-1cbd-408e-afa0-dbb7cd47d6da"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_battlemaster_BLR-1G_fp_theRaid",
@@ -1261,7 +1284,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "5d1391b4-4381-4ddd-b244-eb38e34a79d5"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_victor_VTR-9B_fp_theRaid",
@@ -1320,7 +1343,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "74c85f6a-1050-4bfc-b6bc-e693224691fc"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_firestarter_FS9-H_fp_theRaid",
@@ -1353,7 +1376,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "e4cf8328-8e38-4b0a-b615-c8cf0e29959d"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_shadowhawk_SHD-2D_fp_theRaid",
@@ -1386,7 +1409,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "362c4974-6d34-44b7-8618-a74dbc487c3c"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_griffin_GRF-1N_fp_theRaid",
@@ -1419,7 +1442,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "97859c8e-c965-4124-9ee4-6b062450363c"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "heraldrydef_FP_theRaid_aces",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_wolverine_WVR-6R_fp_theRaid",
@@ -1454,20 +1477,20 @@
     },
     "targetsAllyTeam" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "31151ed6-cfc2-467e-98c4-9ae5bea784cf",
-        "teamName" : "Target's Ally",
+        "teamName" : "TargetsAllyTeam",
         "faction" : "INVALID_UNSET",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : []
     },
     "neutralToAllTeam" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "61612bb3-abf9-4586-952a-0559fa9dcd75",
-        "teamName" : "Neutral to All",
+        "teamName" : "NeutralToAllTeam",
         "faction" : "INVALID_UNSET",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
@@ -1499,8 +1522,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "4b9a4506-105a-48d1-b1e6-dde99edd6439"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Heavy_Sniper",
                         "unitTagSet" : {
@@ -1532,8 +1555,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "dcfc1ad6-3fdf-42c6-8ae9-e7afa2c5a42b"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Heavy_LRM",
                         "unitTagSet" : {
@@ -1565,8 +1588,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "a76da3ec-a28a-4d59-ab63-1d175407f7f6"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Heavy_Sniper",
                         "unitTagSet" : {
@@ -1598,8 +1621,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d328624a-0615-4dcd-b9e0-f73b2031afbf"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Heavy_LRM",
                         "unitTagSet" : {
@@ -1631,8 +1654,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "1fc0067d-8962-446b-83df-73edca453dcc"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Light_Shredder",
                         "unitTagSet" : {
@@ -1664,8 +1687,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "bf45e39e-3152-46c6-83db-28cf0557efc0"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
@@ -1697,8 +1720,8 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "90aa383e-cb0d-4620-8236-0c2fd7a87da3"
                         },
-                        "customUnitName" : null,
-                        "customHeraldryDefId" : null,
+                        "customUnitName" : "",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Turret",
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
@@ -1755,12 +1778,24 @@
     },
     "hostileToAllTeam" : {
         "encounterLayerData" : {
-            "EncounterObjectGuid" : "05455558-965c-49bd-aeb9-2b35364a1a8b"
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
         },
         "teamGuid" : "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
-        "teamName" : "Hostile to All",
+        "teamName" : "HostileToAllTeam",
         "faction" : "INVALID_UNSET",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : []
-    }
+    },
+    "employersAllyTeam" : {
+        "encounterLayerData" : {
+            "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
+        },
+        "teamGuid" : "70af7e7f-39a8-4e81-87c2-bd01dcb01b5e",
+        "teamName" : "EmployersAllyTeam",
+        "faction" : "INVALID_UNSET",
+        "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
+        "lanceOverrideList" : []
+    },
+    "contractType" : "INVALID_UNSET",
+    "contractTypeID" : "DefendBase"
 }
