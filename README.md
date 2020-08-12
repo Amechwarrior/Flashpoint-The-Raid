@@ -21,12 +21,13 @@ This is a Flashpoint for the BATTLETECH: Flashpoint expansion, v1.9.1. It requir
 ### Notes: 
 This Flashpoint requires your company to have "Black Market Access" to populate.
 
-"The Raid" is set with a spawn weight of 10, the same weight as the other non-alliance/tutorial Flashpoints.
+"The Raid" is set with a spawn weight of 20, twice the weight as the other non-alliance/tutorial Flashpoints.
 
 Once this Flashpoint is associated with a save file, it must be present to load that save. This is like adding new modded 'Mechs or equipment in that it becomes required to load going forward.
 
 ### Instructions:
     Install Flashpoint Stock Photos,
+    Delete any older versions of "The Raid"
     Copy "Flashpoint-The-Raid" folder in to Mods folder created for ModTek.
     
 #### Optional Instructions:
@@ -43,7 +44,7 @@ This allows loading of mods in to HBS BATTLETECH.
 
 Flashpoint Stock Photos - https://github.com/BattletechModders/Flashpoint-Stock-Photos/releases
 
-This provides some of the basic imagery used in this Flashpoint's conversations.
+This provides some of the basic imagery used in this Flashpoint's conversations.  This is now included in the CAB bundle.
 
 ### Recommended Mods:
 
