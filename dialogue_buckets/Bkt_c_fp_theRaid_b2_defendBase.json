@@ -2,7 +2,7 @@
     "identifier" : "Bkt_c_fp_theRaid_b2_defendBase",
     "contents" : [
         {
-            "words" : "All targets eliminated. Sit tight, and I can collect you from where you are at right now.",
+            "words" : "All targets eliminated. Clear me an LZ, I'm coming in.",
             "wordsColor" : {
                 "r" : 1,
                 "g" : 1,
@@ -37,7 +37,7 @@
 	    "revealRadius" : -1
 	},
 	{
-	    "words" : "We detected The Muscles DropShip is feeling! Tiverton is free from these criminals and pirates once and for all.",
+	    "words" : "The Muscles' DropShip is fleeing! Tiverton is free from these criminals once and for all.",
 	    "wordsColor" : {
 		"r" : 1,
 		"g" : 1,
@@ -60,7 +60,7 @@
 		"b" : 1,
 		"a" : 1
 	},
-	    "selectedCastDefId" : "castDef_TeamLeader_Target",
+	    "selectedCastDefId" : "castDef_FP_MuscleDefault",
 	    "emote" : "Default",
 	    "audioName" : "NONE",
 	    "cameraFocusGuid" : "",
@@ -76,7 +76,7 @@
 		"b" : 1,
 		"a" : 1
 	    },
-	    "selectedCastDefId" : "castDef_TeamLeader_Target",
+	    "selectedCastDefId" : "castDef_FP_MuscleDefault",
 	    "emote" : "Default",
 	    "audioName" : "NONE",
 	    "cameraFocusGuid" : "",

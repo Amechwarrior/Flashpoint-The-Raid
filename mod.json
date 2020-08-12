@@ -2,9 +2,10 @@
     "Name": "Flashpoint_The_Raid",
     "Enabled": true,
 	
-    "Version": "1.0.1",
+    "Version": "1.9.1.1",
     "Description": "Flashpoint - The Raid: Tiverton wants the Black Market out, are you in?",
     "Author": "amechwarrior",
+    "Website": "https://www.nexusmods.com/battletech/mods/401",
 
     "DependsOn": [ "Flashpoint_Stock_Photos" ],
     "OptionallyDependsOn": [ "cFixes" ],
